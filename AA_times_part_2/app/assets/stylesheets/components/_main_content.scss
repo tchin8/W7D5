@@ -1,5 +1,5 @@
-.col-1-title > h2, a.h2-sub-title, span.header, .h2-footer, .subcolumn-1, 
-.subcolumn-2, .op-titles, .op-author, .img-comment, .opinion-header {
+.column-1-title > h2, a.h2-sub-title, span.header, .h2-footer, .col-3-2, 
+.col-3-1, .op-titles, .op-author, .img-comment, .opinion-header {
     display: block;
 }
 
@@ -13,13 +13,13 @@ body > .body-div {
     position: relative;
 }
 
-.col-1-title > h1 {
+.column-1-title > h1 {
     font-size: 24px;
     font-style: italic;
     font-weight: 900;
 }
 
-.col-1-title > h2, a.h2-sub-title {
+.column-1-title > h2, a.h2-sub-title {
     color: #999;
     padding: 4px 0 4px 0;
 }
@@ -82,11 +82,11 @@ span.header {
     font-weight: bold;
 }
 
-.op-titles:hover {
+.op-titles:hover, .op-eds:hover {
     text-decoration: underline;
 }
 
-.col-3-footer {
+.column-3-footer {
     padding-bottom: 20px;
 }
 
