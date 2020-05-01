@@ -1,0 +1,27 @@
+.section-nav {
+	padding: 10px;
+	text-align: center;
+	border-bottom: 1px solid #999;
+}
+
+.section-links a {
+	padding: 10px;
+	font-size: 10px; 
+}
+
+.snlinks, .snlinks-all {
+	margin: 10px;
+}
+
+
+.snlinks:hover {
+	background-color: #e2e2e2;
+}
+
+.snlink-all:hover {
+	text-decoration: underline;
+}
+
+.snlink-all {
+	font-size: 75%;
+}

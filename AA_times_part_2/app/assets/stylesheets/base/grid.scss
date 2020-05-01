@@ -1,0 +1,46 @@
+.col-1 {
+  width: 20%,
+}
+
+.col-2{
+  width: 40%;
+}
+
+.col-3 {
+  width: 40%;
+}
+
+// .col- {
+//   float: left
+// }
+
+.subcolumn-1, .subcolumn-2 {
+  width: 50%;
+}
+
+.subcolumn-2 {
+  padding-left: 20px;
+}
+
+/* Attribute selector targeting all elements
+with a class attribute containing 'col-' */
+[class*='col-'] {
+  padding-right: 20px;
+}
+
+[class*='col-']:last-of-type {
+  padding-right: 0;
+}
+
+@media all and (max-width: 1000px) {
+  // [class*='col-'] {
+  //   width: 100%;
+  // }
+
+  .col-1, .col-2, .col-3 {
+    // display: flex;
+    // flex-direction: column;
+    // min-width: 550px;
+    width: 100%;
+  }
+}

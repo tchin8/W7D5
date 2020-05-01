@@ -1,0 +1,76 @@
+// Use the gear_dropdown.png screenshot as a style guide
+
+.big-gear {
+	font-family: arial, helvetica, sans-serif;
+}
+
+.hidden {
+	display: none;
+	position: absolute;
+}
+
+.fa-cog:hover {
+	border-radius: 4px;
+	background-color: #e2e2e2;
+	
+}
+
+.gear-dropdown {
+	position: absolute;
+	top: 44px;
+	right: 112px;
+	background-color: white;
+	border: 1px solid #e2e2e2;
+	border-radius: 4px;
+	box-shadow: -1px 4px 6px 1px rgba(0, 0, 0, 0.09);
+	padding: 12px 8px 12px 8px;
+	width: 160px;
+	z-index: 1;
+}
+
+.editions {
+	color: darkgray;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.editions > * {
+	padding: 4px 4px 4px 4px;
+	text-transform: uppercase;
+}
+
+.editions:last-child {
+	padding: 0 0 2px 0;
+}
+
+.editions > li:hover {
+	background-color: #e2e2e2;
+	border-radius: 2px;
+	color: black;
+}
+
+.dropdown-subtitle {
+	color: gray;
+	display: inline-block;
+	font-size: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+    padding: 4px 4px 4px 4px;
+}
+
+.help > span {
+	padding: 8px 4px 4px 4px;
+}
+
+.help > li { 
+    border-bottom: #7cacd1;
+	padding: 4px 4px 4px 4px;
+	color: #7cacd1;
+}
+
+.help > li:hover { 
+    text-decoration: underline;
+}
+
+.editions > li, .help > li {
+	font-weight: 400;
+}
